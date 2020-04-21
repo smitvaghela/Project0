@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+#top, #infodiv {
+  background-color: beige;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid darkgrey;
+  font-family: 'Leckerli One', cursive;
+  font-size: 21px;
+  text-align: left; }
+
+@media (max-width: 955px) {
+  .headimg {
+    display: none; } }
+#top {
+  font-size: 25px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto 70% auto;
+  align-content: space-between; }
+  #top img:hover {
+    border: 2px solid black; }
+
+.mainname {
+  font-size: 40px; }
+
+#infodiv .mainname:hover {
+  font-size: 42px; }
+#infodiv .grid {
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto; }
+#infodiv .grid-item {
+  background-color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+  border: black solid;
+  width: auto;
+  height: auto; }
+  #infodiv .grid-item img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; }
+#infodiv div > p > a {
+  color: black; }
+
+/*# sourceMappingURL=all.css.map */
