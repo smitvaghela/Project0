@@ -1,3 +1,3 @@
-# Project 0
+# project 0
 
 Web Programming with Python and JavaScript
