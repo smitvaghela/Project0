@@ -81,16 +81,19 @@ $commonfont : 'Leckerli One';
         border: black solid;
         width: auto;
         height: auto;
-
-
+        
         img 
         {
               width: 50%;
               height: 50%;
               object-fit: cover
         }
-        
     
+    }
+    
+    .grid-item:hover
+    {
+        border:darkgrey solid;
     }
     
     div > p > a

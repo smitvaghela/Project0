@@ -43,6 +43,8 @@
     width: 50%;
     height: 50%;
     object-fit: cover; }
+#infodiv .grid-item:hover {
+  border: darkgrey solid; }
 #infodiv div > p > a {
   color: black; }
 
